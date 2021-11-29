@@ -1,0 +1,36 @@
+Comandos Git
+-> git innit (inicia um repositório)
+-> git status (verifica o status do repositório)
+->  git add <nome_arquico> (adiciona um arquivo especifico  na pasta para ser rastreado)
+-> git add . (adiciona todos os arquivos da pasta para serem rastreados)
+-> git commit - m "Mensagem" (grava as informações adicionadas no git junto com a mensagem para identificar em que momento a gravação aconteceu  )
+
+-> git log (Visualiza o histórico de commits) 
+
+Estágios do Git
+
+	Ø Commited (Gravado)
+
+Significa que o dado esta armazenado com segurança localmente
+
+	Ø Modified (Modificado)
+
+Significa que você alterou o arquivo, mas ainda não efetuou o "Commit"
+
+	Ø  Staged (Selecionados)
+
+Significa que você marcou um arquivo modificado na versão corrente para fazer parte do próximo "Commit"
+
+	Ø Workflow básico
+		ü Selecione seus arquivos.
+		ü Selecione os arquivos que farão parte do seu próximo commit.
+		ü Faça um commit que usará os arquivos que estão no staging.
+
+Alternar entre os Commits
+
+Git checkout <id do commit>
+
+Clonado um projeto
+git clone <Url do projeto>
+
+
